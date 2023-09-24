@@ -1,0 +1,102 @@
+/*Custom Cursor Images https://codepen.io/fmressel/pen/djwvJVLinks to an external site.  Search for Unicode using https://emojipedia.org/Links to an external site.  and replace characters before .png*/
+
+/*Rocket*/
+.rocket {
+  cursor: url(https://abs.twimg.com/emoji/v2/72x72/1f680.png) 36 36, auto;
+}
+
+/*Astronaut*/
+.astronaut {
+  cursor: url(https://abs.twimg.com/emoji/v2/72x72/1f47d.png) 36 36, auto;
+}
+
+/*Planet*/
+.planet {
+  cursor: url(https://abs.twimg.com/emoji/v2/72x72/1fa90.png) 36 36, auto;
+}
+
+section{
+  display: flex;
+}
+
+.tooltiptext{
+  visibility: hidden;
+  width: 120px;
+  height: 120px;
+  background-color: #56BAE5;
+  color: white;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 200px;
+  right: 5;
+}
+
+.astronaut:hover .tooltiptext{
+  visibility: visible;
+}
+
+.spacecraft:hover .tooltiptext{
+  visibility: visible;
+}
+
+.planet:hover .tooltiptext{
+  visibility: visible;
+}
+
+figure {
+  align-self: flex-start;
+  display: flex;
+  top: 3rem;
+  position: sticky;
+}
+
+body {
+  background-color: #E8BEF7;
+  font-family: Itim;
+  max-width: 85rem;
+  margin: 1rem auto
+}
+h1 {
+	 text-align: center;
+	 margin-bottom: 1rem;
+   font-size: 9rem;
+   font-family: Itim;
+   font-weight: 100;
+  color: #AC56E5;
+}
+
+h2 {
+	 text-align: center;
+	 margin-bottom: 3rem;
+   font-size: 3rem;
+   font-family: Itim;
+   font-weight: 100;
+   color: #AC56E5;
+}
+
+.publication {
+  text-align:center;
+ padding: 0px 50px;
+  margin: 0px 50px;
+  color: #aaaaea;
+  position: relative;
+  display: inline-block;
+}
+
+.grant {
+  text-align:center;
+  padding: 0px 50px;
+  margin: 0px 50px;
+  color: #e3e3e3;
+  position: relative;
+  display: inline-block;
+}
+
+article p {
+	 font-family: Futura;
+	 font-size: 1.1rem;
+	 line-height: 1.8;
+}
